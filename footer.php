@@ -1,8 +1,6 @@
-<footer class="footer-warraper">
-    <p><?php bloginfo('title') ?>
-</footer>
-
-<?php wp_footer() ?>
-
-</body>
-</html> 
+<footer>
+      <p>Copyright &copy; 2021</p>
+    </footer>
+    <?php wp_footer(); ?>
+  </body>
+</html>

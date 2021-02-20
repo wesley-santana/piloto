@@ -10,3 +10,12 @@ Version: 1.0.0
 Text domain: Pilot
 
 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: Helvetica;
+}
