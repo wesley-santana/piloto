@@ -1,8 +1,14 @@
 <?php
 
-function add_normalize_CSS() {
-    wp_enqueue_style( 'normalize-styles',  get_template_directory_uri() . '/css/normalize.css');
+function add_theme_scripts() {
+  wp_enqueue_style(  'bootstrap', get_template_directory_uri() . '/css/bootstrap/bootstrap.css');
+  wp_enqueue_style( 'jqueryslim', get_template_directory_uri() . '/css/bootstrap/jquery.js');
+  wp_enqueue_script( 'popper', get_template_directory_uri() . '/css/bootstrap/popper.js');
+  wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/css/bootstrap/bootstrap.js'); 
 }
+
+add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
+
 
 function add_widget_Support() {
   register_sidebar( array(

@@ -8,7 +8,8 @@
    <?php wp_head(); ?>
  </head>
  <body <?php body_class(); ?>>
-   <header class="my-logo">
+   <header class="container">
    <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?></a></h1>
+   <?php wp_nav_menu( array( 'header-menu' => 'header-menu' ) ); ?>
  </header>
- <?php wp_nav_menu( array( 'header-menu' => 'header-menu' ) ); ?>
+ 

@@ -1,4 +1,4 @@
-<footer>
+<footer class="container">
       <p>Copyright &copy; 2021</p>
     </footer>
     <?php wp_footer(); ?>
