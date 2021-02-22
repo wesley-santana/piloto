@@ -10,3 +10,9 @@ Version: 1.0.0
 Text domain: Pilot
 
 */
+
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 1em;
+}

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main class="wrap">
+<main class="container">
   <section class="content-area content-thin">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <article class="article-full">
